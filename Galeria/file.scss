@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+    ::selection {
+        background-color: transparent;
+    }
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #15202b;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.fotos {
+    background-color: rgb(23, 3, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 900px;
+    height: 50vh;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+
+    img {
+        border: 1.5px outset white;
+        max-width: 500px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+#nomeDaImg {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 2px solid white;
+    border-bottom: none;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+    width: 900px;
+    height: 70px;
+    background: rgb(37, 6, 95);
+    background: linear-gradient(0deg, rgb(23, 3, 59) 0%, rgb(18, 3, 46) 100%);
+}
+
+.imgDaDiv {
+    width: 80%;
+}
+
+#seta1,
+#seta2 {
+    cursor: pointer;
+}
+
+.right,
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+
+    img {
+        max-width: 64px;
+        position: fixed;
+    }
+}
+
+#seta2 {
+    transform: rotateY(180deg);
+}
+
+.minuatura {
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: rgb(12, 2, 31);
+    background: linear-gradient(0deg, rgb(6, 1, 15) 0%, rgb(23, 3, 59) 100%);
+    width: 900px;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-top: none;
+
+    img {
+        max-width: 11.8%;
+        max-height: 100%;
+        object-fit: cover;
+        transition: 0.3s ease;
+        border: 1px solid white;
+        margin: 0px 0px;
+        cursor: pointer;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+}
+
+.boxAll {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(450px);
+    transition: 0.5s all ease;
+}

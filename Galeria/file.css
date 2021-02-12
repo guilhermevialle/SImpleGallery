@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+* ::-moz-selection {
+  background-color: transparent;
+}
+
+* ::selection {
+  background-color: transparent;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #15202b;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.fotos {
+  background-color: #17033b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 900px;
+  height: 50vh;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.fotos img {
+  border: 1.5px outset white;
+  max-width: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+#nomeDaImg {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border: 2px solid white;
+  border-bottom: none;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  color: white;
+  width: 900px;
+  height: 70px;
+  background: #25065f;
+  background: -webkit-gradient(linear, left bottom, left top, from(#17033b), to(#12032e));
+  background: linear-gradient(0deg, #17033b 0%, #12032e 100%);
+}
+
+.imgDaDiv {
+  width: 80%;
+}
+
+#seta1,
+#seta2 {
+  cursor: pointer;
+}
+
+.right,
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+.right img,
+.left img {
+  max-width: 64px;
+  position: fixed;
+}
+
+#seta2 {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.minuatura {
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #0c021f;
+  background: -webkit-gradient(linear, left bottom, left top, from(#06010f), to(#17033b));
+  background: linear-gradient(0deg, #06010f 0%, #17033b 100%);
+  width: 900px;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 2px solid white;
+  border-top: none;
+}
+
+.minuatura img {
+  max-width: 11.8%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  border: 1px solid white;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.minuatura img:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.boxAll {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transform: translateY(450px);
+          transform: translateY(450px);
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+/*# sourceMappingURL=file.css.map */
