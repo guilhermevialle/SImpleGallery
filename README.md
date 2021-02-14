@@ -2,6 +2,8 @@
 ## Simple Gallery (Array)
 > #### by guilhermevialle
 
+> Note: This is just an interactive gallery model.
+
 ### Features
 - JavaScript, HTML, CSS
 
