@@ -1,7 +1,19 @@
-# SimpleGallery
-JavaScript
 
-- A simple gallery made with Vanilla JavaScript, HTML and SCSS.
+## Simple Gallery (Array)
+> #### by guilhermevialle
 
-- ### License 
-- MIT
+### Features
+- JavaScript, HTML, CSS
+
+
+### Screenshots
+
+- #### 
+![](https://github.com/guilhermevialle/SImpleGallery/blob/main/Galeria/Screenshots/capture.PNG)
+
+------------
+
+#### Social Media
+
+- https://twitter.com/guivialle
+- https://www.instagram.com/guilherme.vialle/?hl=pt-br
