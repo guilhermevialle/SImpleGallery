@@ -8,7 +8,7 @@
 - JavaScript, HTML, CSS
 
 
-### Screenshots
+### Preview
 
 - #### Gallery Interface
 ![](https://github.com/guilhermevialle/SImpleGallery/blob/main/Galeria/Screenshots/capture.PNG)
