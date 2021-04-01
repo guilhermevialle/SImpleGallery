@@ -14,10 +14,10 @@
 ![](https://github.com/guilhermevialle/SImpleGallery/blob/main/Galeria/Screenshots/capture.PNG)
 
 - #### The selected image has a more interactive view
-![](https://github.com/guilhermevialle/SImpleGallery/blob/main/Galeria/Screenshots/capture2.PNG)
+<img src="https://raw.githubusercontent.com/guilhermevialle/SImpleGallery/main/Galeria/Screenshots/capture2.PNG" width="510px">
 
 - #### The image caption is shown on top of that
-![](https://github.com/guilhermevialle/SImpleGallery/blob/main/Galeria/Screenshots/capture3.PNG)
+<img src="https://raw.githubusercontent.com/guilhermevialle/SImpleGallery/main/Galeria/Screenshots/capture3.PNG" width="510px">
 
 ------------
 
